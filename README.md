@@ -4,7 +4,7 @@ An android app for managing events and other activities of the Indian Institute 
 
 ## Motivation
 
-IIT Bombay and a lot of other sister institutes have an app to ease student's day to day life and easily provide all information to them. [Here are](https://jpst.it/1IXlp) all the repositories associated with IIT Bombay's InstiApp. Since the project is opensource, we will be taking parts of the code from there because,
+IIT Bombay and a lot of other sister institutes have an app to ease student's day to day life and easily provide all information to them. [Here are](https://github.com/topics/instiapp) all the repositories associated with IIT Bombay's InstiApp. Since the project is opensource, we will be taking parts of the code from there because,
 
 > Why reinvent the wheel?
 
