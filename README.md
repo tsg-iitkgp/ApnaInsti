@@ -10,7 +10,7 @@ IIT Bombay and a lot of other sister institutes have an app to ease student's da
 
 ## Feature List [WIP]
 
-[Here is the feature list]()https://docs.google.com/document/d/1L4wzuw88JrLyBt1DvnjavtAwhJkXgNSIxJG3yBsLwQ0/edit?usp=sharing of InstiApp of IITB. Below listed are various features as per various entities associated with the application being developed for IITKGP.
+[Here is the feature list](https://docs.google.com/document/d/1L4wzuw88JrLyBt1DvnjavtAwhJkXgNSIxJG3yBsLwQ0/edit?usp=sharing) of InstiApp of IITB. Below listed are various features as per various entities associated with the application being developed for IITKGP.
 
 ## Processes [WIP]
 
