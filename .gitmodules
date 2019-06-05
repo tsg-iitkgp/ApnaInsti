@@ -1,0 +1,3 @@
+[submodule "KGPAppBackend"]
+	path = KGPAppBackend
+	url = https://github.com/tsg-iitkgp/KGPAppBackend
