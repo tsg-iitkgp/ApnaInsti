@@ -8,9 +8,9 @@ IIT Bombay and a lot of other sister institutes have an app to ease student's da
 
 > Why reinvent the wheel?
 
-## Feature List [WIP]
+## Feature List
 
-[Here is the feature list](https://docs.google.com/document/d/1L4wzuw88JrLyBt1DvnjavtAwhJkXgNSIxJG3yBsLwQ0/edit?usp=sharing) of InstiApp of IITB. Below listed are various features as per various entities associated with the application being developed for IITKGP.
+[Here is the feature list](https://docs.google.com/document/d/1L4wzuw88JrLyBt1DvnjavtAwhJkXgNSIxJG3yBsLwQ0/edit?usp=sharing) of InstiApp of IITB from which ApnaInsti is derived. Below listed are various features of our IIT KGP's application.
 
 ### Body
 
@@ -120,12 +120,12 @@ Below table contains all the major dependencies for the project.
 | Purpose | Technology | Remark |
 | ------- | ---------- | ------ |
 | Mess Menus and other data which doesn't required frequenct updates | Google Sheets | Google Sheets is an easy and scalable way to store and manage information. This should be used to store data that needs to be manually updated and only Read operations are required. We will give edit access to hall mess GSecs. |
-| Database for high CRUD | MySQL | MySQL is an opensource DBMS which can be used to store data with high level of CRUD |
-| REST API Backend | Django / Flask with Flask-RESTPlus | We will be using REST API at the backend so that later on we can expand to many other platforms |
-| Android App | Flutter / Java | We will be using either flutter or native android to create the app and it's interfaces which will query the backend |
-| API Documentation | Swagger With Django | Swagger with Django or Flask will be used to automatically create the rest API and it's documentation. |
+| Database for high CRUD | SQLite | Django's inbuilt SQLite is used |
+| REST API Backend | Django | We will be using REST API at the backend so that later on we can expand to many other platforms |
+| Android App | Java | We will be using native android to create the app and it's interfaces which will query the backend |
+| API Documentation | Swagger With Django | Swagger with Django will be used to automatically create the rest API and it's documentation. |
 | Task Queue and Handling | Celery with RabbitMQ | We will be queuing tasks and scheduling repetitive tasks using Celery with RabbitMQ as the broker. We will be exploring a few more options if required for better simplicity.
-| Push notifications | Google Firebase | Firebase comes with a free notification manager and we will be using that to send notifications to the users about their respective events |
+| Push notifications | Google Firebase Cloud Messaging | Firebase comes with a free notification manager and we will be using that to send notifications to the users about their respective events |
 
 NOTE: Apart from the above technologies, there will be some miscellaneous dependencies as well which will come forward as we start with the development.
 
@@ -137,15 +137,20 @@ References:
 
 # FAQ
 
-## What is ApnaInsti?
-
-ApnaInsti has been designed (as IITB's app) to be the one common platform for all student activities in IIT Kharagpur. The app consists of two versions:
+<details><summary>What is ApnaInsti?</summary>
+<br/>
+<p>
+ApnaInsti has been designed (from IITB's app as base) to be the one common platform for all student activities in IIT Kharagpur. The app consists of two versions:
 
 1) The Android App
 2) The Website for Windows, iOS, Android etc.
 
-## What features does ApnaInsti have?
+</p>
+</details>
 
+<details><summary>What features does ApnaInsti have?</summary>
+<br/>
+<p>
 Some features that are currently available are:
 
 - A comprehensive feed of all the events happening around the institute
@@ -155,49 +160,94 @@ Some features that are currently available are:
 - Institute calendar which will have information of all the events
 - Notifications for new events, updates on events, mentions in PT blogs and so on.
 - Quick links for CMS, Academic time table and calendar, VPN, etc.
+  
+</p>
+</details>
 
-## Who fills in the events and other data?
+<details><summary>Who fills in the events and other data?</summary>
 
+<br/>
+<p>
 Everything is done by POR holders! If you're a manager/convener or equivalent for a club/IB, login to ApnaInsti and let us know so we can grant you permissions on your club. Once a few people are added, they can also add others from the option to edit the body/club.
+</p>
+</details>
 
-## Mess Menu
+<details><summary>My hostel has no mess menu!</summary>
 
-### My hostel has no mess menu!
-
+<br/>
+<p>
 Ask your mess councillors/secretaries to update it! For those responsible, you just have to update a Google Sheet, which will automatically update data in the app hourly.
+</p>
+</details>
 
-## What happens when I follow events/clubs?
+<details><summary>What happens when I follow events/clubs?</summary>
 
+<br/>
+<p>
 When you follow an event, you'll get notification when/if the event is updated. Following a body will get events of the body higher priority in your feed and notifications for new events/news.
+</p>
+</details>
 
-## I updated my profile pic but can't see it!
+<details><summary>I updated my profile pic but can't see it!</summary>
 
+<br/>
+<p>
 Logout and login again whenever you update your profile.
+</p>
+</details>
 
-## How to add an event?
+<details><summary>How to add an event?</summary>
 
+<br/>
+<p>
 To add an event, click the add event button in the bottom right corner. It is **highly recommended** that you upload an image, since this could have an effect on how high your event is in the feed. Next you need to add a title, description and choose the organizations and venues. Always choose venues from suggestions instead of writing the full name. Doing so will ensure better priority and other features in the future. When you're done, click the Create Event button.
+</p>
+</details>
 
-## How to update an event?
+<details><summary>How to update an event?</summary>
 
+<br/>
+<p>
 On an event page, you should see a pencil icon, clicking which should open the update page. Note that updating events sends out notifications to all people interested/going to the event.
+</p>
+</details>
 
-## How to add events with multiple bodies?
+<details><summary>How to add events with multiple bodies?</summary>
 
+<br/>
+<p>
 Approach a higher authority with permissions on all bodies to create the event if multiple bodies are conducting an event. For example, if TLS and TFPS are conducting an event together, approach the GymKhana. If CodeClub and CSE Dept are conducting an event together, approach the ApnaInsti team.
+</p>
+</details>
 
-## I don't see a button to add events!
+<details><summary>I don't see a button to add events!</summary>
 
+<br/>
+<p>
 Make sure you have your PoR registered for the particular body you want to add events for. If you have just received permissions, close the app and open it again or logout/login from settings. If you're using the website, open a new tab and open InstiApp there again.
+</p>
+</details>
 
-## What's News?
+<details><summary>What's News?</summary>
 
+<br>
+<p>
 News is collected from blogs. If you're managing a society, you can see a pencil icon on the body page to edit your body, where you can change the blog feed URL. Make sure the URL leads to an Atom/RSS feed. Contact the team for more help.
+</p>
+</details>
 
-## How is the order of bodies decided?
+<details><summary>How is the order of bodies decided?</summary>
 
+<br>
+<p>
 The list of bodies are ordered by the number of followers they have. Want to get your ranking up? Ask people to follow your body! You can include a link to your body's/event's page whenever you are publicising. This link can be obtained with the share button.
+</p>
+</details>
 
-## How do I provide feedback?
+<details><summary>How do I provide feedback?</summary>
 
+<br>
+<p>
 Please write a mail to tech.tsgiitkgp@gmail.com or get in touch with the current Technology Coordinator, Gymkhana. You can also create an issue at [ApnaInsti](https://github.com/tsg-iitkgp/ApnaInsti) Github.
+</p>
+</details>
