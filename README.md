@@ -113,10 +113,6 @@ Users can register complaints as well as provide communication through comments 
 
 There will also be a section to provide feedback and suggestions for the application.
 
-## Processes [WIP]
-
-Below flow-charts and classes depict the various methods of interaction between different entities of the application and how they perform their operations.
-
 ## Technical Dependencies
 
 Below table contains all the major dependencies for the project.
@@ -138,3 +134,70 @@ References:
 - https://www.linode.com/docs/development/python/task-queue-celery-rabbitmq/
 - https://www.fullstackpython.com/task-queues.html
 - https://android.jlelse.eu/android-push-notification-using-firebase-and-advanced-rest-client-3858daff2f50
+
+# FAQ
+
+## What is ApnaInsti?
+
+ApnaInsti has been designed (as IITB's app) to be the one common platform for all student activities in IIT Kharagpur. The app consists of two versions:
+
+1) The Android App
+2) The Website for Windows, iOS, Android etc.
+
+## What features does ApnaInsti have?
+
+Some features that are currently available are:
+
+- A comprehensive feed of all the events happening around the institute
+- Mess Menus of all hostels
+- Unique pages for all bodies, events and users
+- Insti news collated from blogs of major bodies
+- Institute calendar which will have information of all the events
+- Notifications for new events, updates on events, mentions in PT blogs and so on.
+- Quick links for CMS, Academic time table and calendar, VPN, etc.
+
+## Who fills in the events and other data?
+
+Everything is done by POR holders! If you're a manager/convener or equivalent for a club/IB, login to ApnaInsti and let us know so we can grant you permissions on your club. Once a few people are added, they can also add others from the option to edit the body/club.
+
+## Mess Menu
+
+### My hostel has no mess menu!
+
+Ask your mess councillors/secretaries to update it! For those responsible, you just have to update a Google Sheet, which will automatically update data in the app hourly.
+
+## What happens when I follow events/clubs?
+
+When you follow an event, you'll get notification when/if the event is updated. Following a body will get events of the body higher priority in your feed and notifications for new events/news.
+
+## I updated my profile pic but can't see it!
+
+Logout and login again whenever you update your profile.
+
+## How to add an event?
+
+To add an event, click the add event button in the bottom right corner. It is **highly recommended** that you upload an image, since this could have an effect on how high your event is in the feed. Next you need to add a title, description and choose the organizations and venues. Always choose venues from suggestions instead of writing the full name. Doing so will ensure better priority and other features in the future. When you're done, click the Create Event button.
+
+## How to update an event?
+
+On an event page, you should see a pencil icon, clicking which should open the update page. Note that updating events sends out notifications to all people interested/going to the event.
+
+## How to add events with multiple bodies?
+
+Approach a higher authority with permissions on all bodies to create the event if multiple bodies are conducting an event. For example, if TLS and TFPS are conducting an event together, approach the GymKhana. If CodeClub and CSE Dept are conducting an event together, approach the ApnaInsti team.
+
+## I don't see a button to add events!
+
+Make sure you have your PoR registered for the particular body you want to add events for. If you have just received permissions, close the app and open it again or logout/login from settings. If you're using the website, open a new tab and open InstiApp there again.
+
+## What's News?
+
+News is collected from blogs. If you're managing a society, you can see a pencil icon on the body page to edit your body, where you can change the blog feed URL. Make sure the URL leads to an Atom/RSS feed. Contact the team for more help.
+
+## How is the order of bodies decided?
+
+The list of bodies are ordered by the number of followers they have. Want to get your ranking up? Ask people to follow your body! You can include a link to your body's/event's page whenever you are publicising. This link can be obtained with the share button.
+
+## How do I provide feedback?
+
+Please write a mail to tech.tsgiitkgp@gmail.com or get in touch with the current Technology Coordinator, Gymkhana. You can also create an issue at [ApnaInsti](https://github.com/tsg-iitkgp/ApnaInsti) Github.
